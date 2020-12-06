@@ -1,0 +1,76 @@
+.component {
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    margin:0 20px;
+    position: relative;
+}
+
+.component>div {
+    border-top: 1px solid #aeaeae;
+}
+
+.name {
+    flex:1;
+    background: #343434;
+    font-size:40px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.time {
+    flex:2;
+    background: #343434;
+    padding-bottom: 20px;
+}
+
+.timeData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 25%;
+}
+
+.data {
+    flex:5;
+    background: #343434;
+    height:40%;
+}
+
+.itemContainer {
+    background: #545454;
+    max-height: 70%;
+    overflow-y: auto;
+}
+
+
+.btn {
+    flex:1;
+    background: #343434;
+}
+
+.btnItem {
+    margin:30px;
+    padding:20px;
+    border-radius: 10px;
+    background: #232323;
+    color:#ababab;
+    cursor: pointer;
+    
+    
+}
+.btnItem:hover {
+    background: #ababab;
+    color:#232323;
+}
+
+.loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #7c7b72aa;
+    line-height: 400px;
+    font-size: 50px;
+}
